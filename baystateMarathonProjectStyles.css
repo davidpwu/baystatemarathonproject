@@ -59,12 +59,15 @@ table {
 	font-size: calc(14px + 0.2vw);
 }
 table tr:not(#days) td {
-    color: white;
+    color: black;
     border: 1px black solid;
 	text-align: center;
 	margin: 0;
 	width: 14%;
 	/* padding-bottom: 11.85%; */
+}
+table tr:not(#days) td p {
+	color: white;
 }
 table tr:not(#days) td:not(.otherMonth):not(#raceDay):not(.week1):not(.week2):not(.week3):not(.week4):not(.week5):not(.week6):not(.week7):not(.week8):not(.week9):not(.week10):not(.week11):not(.week12):not(.week13):not(.week14):not(.week15):not(.week16):not(.week17):not(.week18) {
 	/* background-color: lightgray; */

@@ -7,8 +7,8 @@
   <title>Baystate Marathon Project</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="baystateMarathonProjectStyles.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="baystateMarathonProjectStyles.css">
 </head>
 <body>
 
@@ -16,6 +16,9 @@
     <h1>Baystate Marathon Project</h1>
     <hr>
     <p id="purpose">A project by David Wu. This is a public calendar log keeping a record of my workouts for 18 weeks up until the <a href="https://baystatemarathon.com/">Baystate Marathon</a> on Sunday, October 20, 2019 in Lowell, MA. I will be using <a href="https://content.nike.com/content/dam/one-nike/en_us/season-2015-su/Running/NikeRunClub/TrainingPlans/Marathon_Training_Plan_Miles_3_29_2016.pdf">Nike's 18-week marathon training program</a> for structure.</p>
+    <button id="detailsPopover" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="">
+      <i class="fa fa-question-circle" aria-hidden="true"></i>
+    </button>
   </div>
   
   <h2>Schedule</h2>
@@ -91,11 +94,13 @@
         <tr>
           <td class="week1">
             <div>16</div>
-            <p></p>
+            <p>Traveling</p>
           </td>
           <td class="week1">
             <div>17</div>
-            <p></p>
+            <p>5 x 1 mi jog, 5 min rest</p>
+            <p>2 x 30 s Modified Abdominal Assault</p>
+            <p>Stretch</p>
           </td>
           <td class="week1">
             <div>18</div>
@@ -402,5 +407,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="baystateMarathonProjectJS.js"></script>
 </body>
 </html>
