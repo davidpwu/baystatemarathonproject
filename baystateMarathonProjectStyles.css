@@ -103,7 +103,7 @@ table tr:not(#days) td:not(.otherMonth):not(#raceDay):not(.week1):not(.week2):no
 	background-color: gray;
 }
 
-/* Active Week */
+/* Active Week at top */
 #thisWeek {
 	background-color: lightgray;
 	background-image: url(static/gradient.jpg);
