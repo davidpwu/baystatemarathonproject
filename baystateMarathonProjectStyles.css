@@ -76,7 +76,7 @@ table tr:not(#days) td:not(.otherMonth):not(#raceDay):not(.week1):not(.week2):no
 	/* background-color: lightgray; */
 	background-color: rgba(211,211,211,0.5);
 }
-#raceDay {
+.raceDay {
 	background-image: url(static/gradient.jpg);
 	background-size: cover;
     background-position: center;
