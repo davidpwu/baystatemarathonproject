@@ -41,8 +41,12 @@ h1 {
 	margin-top: 1%;
 }
 h2, #purpose {
-    text-align: center;
+  text-align: center;
 	color: white;
+}
+.btn-secondary {
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(0,0,0,0);
 }
 #purpose {
 	margin-left: 1rem;
@@ -95,7 +99,7 @@ table tr:not(#days) td:not(.otherMonth):not(#raceDay):not(.week1):not(.week2):no
 	color: white;
 }
 .week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9, .week10, .week11, .week12, .week13, .week14, .week15, .week16, .week17, .week18 {
-	background-color: slategray;
+	background-color: rgba(0,0,0,0.5);
 	/* background-image: url(static/gradient.jpg); */
 	background-size: cover;
     background-position: center;
