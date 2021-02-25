@@ -7,7 +7,7 @@
 
 ## Details
 
-This is a public calendar log keeping a record of my workouts for 18 weeks up until the Baystate Marathon on Sunday, October 20, 2019 in Lowell, MA. I will be using Nike's 18-week marathon training program for structure.
+This is a public calendar log keeping a record of my workouts for 18 weeks up until the Baystate Marathon on Sunday, October 20, 2019 in Lowell, MA.
 
 Note: Injuries have nixed the training plan but the end goal is still the same. Due to an injury, the current plan is to walk it.
 
